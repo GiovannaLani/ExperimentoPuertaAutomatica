@@ -1,0 +1,12 @@
+name: Watertank
+description: This is a watertank simulation
+iframe:
+  url: watertank/watertank.html
+  height: 500
+gpios:
+  sim2dut:
+    # or just number: 3
+    labels: [ lowSensor, midSensor, highSensor ]
+  dut2sim:
+    # or just number: 2
+    labels: [ pump1, pump2 ]

@@ -1,0 +1,12 @@
+name: Parking
+description: This is a parking simulation
+iframe:
+  url: https://ll-static-apps.s3.eu-central-1.amazonaws.com/simulations/parking/index.html
+  height: 500
+gpios:
+  sim2dut:
+    # or just number: 3
+    labels: [ lowSensor, midSensor, highSensor ]
+  dut2sim:
+    # or just number: 2
+    labels: [ pump1, pump2 ]
